@@ -1,0 +1,3 @@
+from myapp.models import Tour
+
+to1 = Tour(oregin_country = 'bangladesh' ,destiny_country = 'turky', nights = '5',price = '500')
