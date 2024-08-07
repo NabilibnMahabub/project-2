@@ -11,3 +11,4 @@ class Tour(models.Model):
     #str
     def __str__(self):
         return (f'Id:{self.id} From {self.oregin_country} To {self.destiny_country} {self.nights} nights costs {self.price}$')
+
