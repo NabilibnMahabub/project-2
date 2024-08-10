@@ -1,5 +1,55 @@
 body{
-    align-items: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    align-self: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #333;
+    -webkit-text-fill-color: white;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+}
+button:hover{
+    background-color: #301d1d;
+    box-shadow: white;
+}
+.form{
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4p 8px black;
+    padding: 20px;
+}
+label{
+    font-weight:bold;
+}
+input{
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-text-fill-color: black;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='confirm_password'],
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    border: 1px;
+    box-sizing: border-box;
+    -webkit-text-fill-color: black;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#b3ff51;
 }
